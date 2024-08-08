@@ -1,0 +1,42 @@
+.navbar {
+  padding: 20px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+}
+
+.head2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.head2 > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+}
+
+.head2 ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.head2 ul li p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+.head2 ul li img {
+    margin-top: -22px;
+}
+
+.head2 ul .home {
+    color: #35B8BE;
+}

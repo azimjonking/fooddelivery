@@ -2,8 +2,16 @@ import "./Support.css";
 
 const Support = () => {
   return (
-    <section>
-      <h1>Support</h1>
+    <section className="support">
+      <div className="sup1">
+        <img src="./src/assets/IMAGE (26).png" alt="" />
+      </div>
+      <div className="sup2">
+        <h1>
+          <span>Support</span>good food <br /> and local business.
+        </h1>
+        <button>Order Now</button>
+      </div>
     </section>
   );
 };
