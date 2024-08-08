@@ -1,0 +1,20 @@
+.order {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.order .order-header{
+    width: 578px;
+    height: 585.97px;
+    left: 622px;
+    gap: 0px;
+    opacity: 0px;
+}
+.order img1 {
+  width: 578px;
+  height: 585.97px;
+  gap: 0px;
+  opacity: 0px;
+}
