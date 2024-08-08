@@ -9,19 +9,19 @@ const Navbar = () => {
       <div className="head2">
         <ul>
           <li>
-            <p className="home">Home</p>
+            <a className='active'>Home</a>
           </li>
           <li>
-            <p>Order</p>
+            <a>Order</a>
           </li>
           <li>
-            <p>Company</p>
+            <a>Company</a>
           </li>
           <li>
-            <p>FAQ</p>
+            <a>FAQ</a>
           </li>
           <li>
-            <p>Contact</p>
+            <a>Contact</a>
           </li>
           <li>
             <img src="./src/assets/bean.png" alt="" />
