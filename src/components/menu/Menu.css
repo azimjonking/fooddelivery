@@ -1,0 +1,204 @@
+.menu {
+  width: 100%;
+  padding: 140px 120px;
+  background: #f5fbfc;
+}
+
+.menu-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+}
+
+.menu-header h1 {
+  font-family: var(--inter);
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 1.649999976158142px;
+  color: #35b8be;
+  text-align: center;
+}
+
+.menu-header p {
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  color: #546285;
+}
+
+.menu-header p span {
+  color: #35b8be;
+}
+
+.menu-categories {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-categories button {
+  padding: 15px 45px;
+  border: 1px solid #61728333;
+  border-radius: 6px;
+  font-family: var(--inter);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #222222;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-categories button:hover {
+  background: #617283;
+  border-color: #35b8be;
+  color: #ffffff;
+}
+
+.menu-categories button.active {
+  background: #35b8be;
+  color: #ffffff;
+}
+
+.menu-container {
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.menu-food {
+  width: 100%;
+  padding: 26px;
+  border-radius: 6px;
+  border: 1px solid #35b8be26;
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 30px;
+  background: #ffffff;
+}
+
+.menu-food food-img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.menu-food food-img img {
+  width: 100%;
+}
+
+.menu-food .food-info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.menu-food .food-info .name {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-food .food-info .name span:first-child {
+  font-family: var(--inter);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6000000238418579px;
+  color: #08090a;
+}
+
+.menu-food .food-info .name span:last-child {
+  font-family: var(--inter);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #35b8be;
+}
+
+.menu-food .food-info > p {
+  margin-top: 18px;
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3199999928474426px;
+  color: #546285;
+}
+
+.menu-food .food-info .add {
+  margin-top: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.menu-food .food-info .add > span {
+  width: 60px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  color: #000000;
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+}
+
+.menu-food .food-info .add button {
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #35b8be;
+  border: none;
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.36000001430511475px;
+  color: #000000;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu-food .food-info .add button:hover {
+  background: #617283;
+  color: #ffffff;
+}
+
+.menu > button {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 45px;
+  padding: 20px 35px;
+  border: none;
+  background: #35b8be;
+  border-radius: 6px;
+  font-family: var(--inter);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #ffffff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.menu > button:hover {
+  background: #617283;
+}
